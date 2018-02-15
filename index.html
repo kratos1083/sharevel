@@ -278,7 +278,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12 iframe-adjust">
-			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdesTygNCAQ0f4yFMLjBDpWGFBRvMX3z3qIHiSXTEQ85h7sJw/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Caricamento in corso...</iframe>
+			<iframe id="iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSdesTygNCAQ0f4yFMLjBDpWGFBRvMX3z3qIHiSXTEQ85h7sJw/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Caricamento in corso...</iframe>
                 </div>
 
                 <div class="col-sm-12">
@@ -298,5 +298,12 @@
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>   
+    <script type="text/javascript">
+	$('iframe').load( function() {
+    $('iframe').contents().find("head")
+      .append($("<style type='text/css'>  ..freebirdHeaderMast{background-color: black !important;}  </style>"));
+});    
+	    
+	</script>
 </body>
 </html>
