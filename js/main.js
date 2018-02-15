@@ -1,4 +1,12 @@
 jQuery(function($) {'use strict';
+		    
+		
+	$('iframe').load( function() {
+    $('iframe').contents().find("head")
+      .append($("<style type='text/css'>  .freebirdHeaderMast{background-color: black !important;}  </style>"));
+});    
+	    
+	    
 
 	//Responsive Nav
 	$('li.dropdown').find('.fa-angle-down').each(function(){
