@@ -3,7 +3,7 @@ jQuery(function($) {'use strict';
 		
 	$('iframe').load( function() {
     $('iframe').contents().find("head")
-      .append($("<style type='text/css'>  .freebirdHeaderMast{background-color: black !important;}  </style>"));
+      .append($("<style type='text/css'>  .freebirdAccentBackground{background-color: black !important;}  </style>"));
 });    
 	    
 	    
