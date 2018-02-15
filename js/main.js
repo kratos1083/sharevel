@@ -1,11 +1,6 @@
 jQuery(function($) {'use strict';
 		    
-		$(document).ready(function() {
-    $('iframe#iframe').load(function() {
-        var frame = $('iframe#iframe').contents();
-	    frame.find(".freebirdAccentBackground").css("background-color", "black");
-    });
-});
+
 
 	    
 
