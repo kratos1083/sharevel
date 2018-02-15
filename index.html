@@ -24,8 +24,6 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 
     <style type="text/css">
-	    
-
     #hr1{
         
         width: 200px; 
@@ -70,13 +68,6 @@
 
          #vignetta2 {border-style: solid;
         border-width: 8px;}
-	    
-@media screen and (min-width: 800px) {
-	.iframe-adjust{
-    width: 41%;
-    height: 350px;
-	}
-}
 
     </style>
 </head><!--/head-->
@@ -255,8 +246,7 @@
                         </div>   
                     </div> 
                 </div>
-
-                <div class="col-md-3 col-sm-6 ">
+                <div class="col-md-3 col-sm-6">
                     <div class="contact-info bottom">
                         <h2><b>Contatti</b></h2>
                         <address>
@@ -277,10 +267,25 @@
                         </address>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 iframe-adjust">
-			<iframe id="iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSdesTygNCAQ0f4yFMLjBDpWGFBRvMX3z3qIHiSXTEQ85h7sJw/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Caricamento in corso...</iframe>
+                <div class="col-md-4 col-sm-12">
+                    <div class="contact-form bottom">
+                        <h2><b>Contattaci</b></h2>
+                        <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" required="required" placeholder="Nome completo">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control" required="required" placeholder="Indirizzo e-mail">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Inserisci il testo"></textarea>
+                            </div>                        
+                            <div class="form-group">
+                                <input type="submit" name="submit" class="btn btn-submit" value="Invia">
+                            </div>
+                        </form>
+                    </div>
                 </div>
-
                 <div class="col-sm-12">
                     <div class="copyright-text text-center">
                         <p>&copy; Sharevel 2018. All Rights Reserved.</p>
@@ -298,6 +303,5 @@
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>   
-
 </body>
 </html>
