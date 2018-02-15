@@ -1,11 +1,7 @@
 jQuery(function($) {'use strict';
 		    
 		
-	$('iframe').load( function() {
-    $('iframe').contents().find("head")
-      .append($("<style type='text/css'>  .freebirdAccentBackground{background-color: black;}  </style>"));
-});    
-	    
+
 	    
 
 	//Responsive Nav
