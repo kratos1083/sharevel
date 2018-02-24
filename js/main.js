@@ -13,6 +13,28 @@ jQuery(function($) {'use strict';
 			return false;
 		});
 	});
+		    
+	var a = $(".nav").offset().top;
+
+	function scrollListener(){
+	    if($(document).scrollTop() > a)
+	    {   
+	       $('.navbar-fixed-top').css({"background":"#fff"});
+	       $('.navbar-fixed-top').css({"transition":"0.5s"});
+	       $('.navbar-fixed-top li a').css({"padding-top":"20px"});
+	       $('.navbar-fixed-top li a').css({"padding-bottom":"20px"});
+	    } else {
+	       $('.navbar-fixed-top').css({"background":"transparent"});
+	       $('.navbar-fixed-top').css({"transition":"0.5s"});
+	       $('.navbar-fixed-top li a').css({"padding-top":"40px"});
+	       $('.navbar-fixed-top li a').css({"padding-bottom":"40px"});
+	    }
+	};
+
+$(document).scroll(scrollListener);
+
+scrollListener();
+
 
 	//Fit Vids
 	if( $('#video-container').length ) {
