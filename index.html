@@ -1,295 +1,481 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | Sharevel</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet"> 
-    <link href="css/lightbox.css" rel="stylesheet"> 
-	<link href="css/main.css" rel="stylesheet">
-	<link href="css/responsive.css" rel="stylesheet">
 
-    <!--[if lt IE 9]>
-	    <script src="js/html5shiv.js"></script>
-	    <script src="js/respond.min.js"></script>
-    <![endif]-->       
-    <link rel="shortcut icon" href="images/Favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <title>Sharevel</title>
 
-    <style type="text/css">
-    #hr1{
-        
-        width: 200px; 
-        border-width: 5px;
-        border-color: black;
-    }
-    #hr2{
-        width: 100%; 
-        border-width: 5px;
-        border-color: black;
-    }
-    #hr3{
-        width: 5px;
-        border-width: 300px;
-        border-color: black;
-    }
-    #hr4{
-        width: 60%; 
-        border-width: 5px;
-        border-color: black;
-    }
-    #hr5{
-     width: 20%;
-     border-width: 5px;
-        border-color: black;
-    }
-    #hr4{
-        width: 50%; 
-        border-width: 10px;
-        border-color: black;
-    }
-    #vignetta {border-style: solid;
-        border-width: 10px;
-        margin: auto;
-    }
-         #vignetta2 {border-style: solid;
-        border-width: 8px;}
-    </style>
-</head><!--/head-->
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<body>
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran|Lato|Montserrat|Muli|Roboto" rel="stylesheet">
 
-	<header id="header" >      
-        <div class="container">
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
 
-            <div class="row">
-                <div class="col-sm-12 overflow">
-                   <div class="social-icons pull-right">
-                        <ul class="nav nav-pills">
-                            <li><a href="https://facebook.com/SharevelOfficial"><i class="fa fa-facebook"></i></a></li>
-                        </ul>
-                    </div> 
-                </div>
-             </div>
+    <!-- Custom styles for this template -->
+    <link href="css/new-age.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img id="brand" src="img/logo.png">Sharevel</a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="icon-menu"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#reader">Lettori</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#download">Download</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#creators">Creativi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contatti</a>
+            </li>
+          </ul>
         </div>
-        <hr id="hr4">
-        <div class="navbar navbar-inverse" role="banner" id="top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+      </div>
+    </nav>
 
-                    <a class="navbar-brand" href="#top">
-                    	<h1><img class="img-responsive" src="images/logo.png" width="40%" height="80%" alt="logo"></h1>
-                    </a>
-                
-                </div>
-
-                <div class="collapse navbar-collapse" id="vignetta2" style="width: 40%; float: right;">
-                    <ul class="nav navbar-nav navbar-right">
-                      
-                                   
-                        <li class="dropdown"><a href="#features">Features </a>
-                           
-                        </li>                    
-                        <li><a href="#footer">Chi siamo</a></li>                    
-                    </ul>
-                </div>
-                
-                
+    <header class="masthead d-flex align-content-center flex-wrap">
+      <div class="container">
+        <div class="row h-100">
+          <div class="col-lg-12 my-auto">
+            <div class="header-content mx-auto">
+              <h1 class="mb-5">SCOPRI UN MONDO DI LETTURE!</h1>
+              <p>Condividi le tue passioni<br> Scrivi la tua storia<br>#SHARETHENOVEL</p>
+              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Accedi</a>
             </div>
-            <hr id="hr4" align="right">
-
+          </div>
+          <!-- <div class="col-lg-5 my-auto">
+            <div class="device-container">
+              <div class="device-mockup iphone6_plus portrait white">
+                <div class="device">
+                  <div class="screen">
+                    <img src="img/demo-screen-1.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="button">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
         </div>
+      </div>
     </header>
-    <!--/#header-->
 
-    <section id="home-slider">
-        <div class="container">
-            <div class="main-slider">
-                <div class="slide-text">
-                    <h1 style="font-size: 70px;"><b>Share a novel</b></h1>
-                    <p style="font-size: 18px;"><b>Un progetto pensato per rivoluzionare il mondo del comic.</b></p>
-                </div>
-                <img src="images/animazione_caduta.png" width="60%" height="100%" class="img-responsive slider-house" alt="slider image">
+    <section class="product text-center">
+      <div class="container">
+        <h2 class="h1-responsive font-weight-bold my-5">I nostri prodotti</h2>
+        <div class="row">
+          <div class="col-lg-4 col-xs-12">
+            <div class="avatar mx-auto">
+              <img src="img/manga.png" alt="Sample avatar">
             </div>
+            <h4 class="font-weight-bold mt-4 mb-3">Manga</h4>
+          </div>
+          <div class="col-lg-4 col-xs-12">
+            <div class="avatar mx-auto">
+              <img src="img/comics.png" alt="Sample avatar">
+            </div>
+            <h4 class="font-weight-bold mt-4 mb-3">Comics</h4>
+          </div>
+          <div class="col-lg-4 col-xs-12">
+            <div class="avatar mx-auto">
+              <img src="img/book.png" alt="Sample avatar">
+            </div>
+            <h4 class="font-weight-bold mt-4 mb-3">Books</h4>
+          </div>
         </div>
-        <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <a href="#download" class="btn btn-blur btn-xl js-scroll-trigger">Scopri il catalogo</a>
+          </div>
+        </div>
+      </div>
     </section>
-    <!--/#home-slider-->
-    
-    <hr id="hr1">
-    <hr id="hr2">
-    <section id="services">
-        <div class="container" id = "features" >
-            <div class="row" >
-                <div class="col-sm-3 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <div class="single-service" id="vignetta">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="images/trophy.png" alt="">
-                        </div>
-                        <h2><b>Contest</b></h2>
-                        <p><b>Gli scrittori potranno pubblicare i propri lavori tramite concorsi organizzati dal sistema.<br>Il vincitore otterrà una percentuale dei premi.<br>Per partecipare sarà prevista una quota e la registrazione alla piattaforma</b>.</p>
 
-                    </div>
-
-                </div>
-                <div class="col-sm-3 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-                    <div class="single-service" id="vignetta">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="images/legal.png" alt="">
-                        </div>
-                        <h2><b>Legale</b></h2>
-                        <p><b>Non esistono altre piattaforme sul mercato che offrono il servizio in maniera legale.</b></p>
-                    </div>
-                </div>
-                <div class="col-sm-3 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms"> 
-                    <div class="single-service" id="vignetta">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                           <img src="images/multilanguage.png" alt="">
-                        </div>
-                        <h2><b>Scalabile</b></h2>
-                        <p><b>Il sistema sarà predisposto per la traduzione in più lingue.</b></p>
-                    </div>
-                </div>
-                <div class="col-sm-3 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms"> 
-                    <div class="single-service" id="vignetta" >
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                           <img src="images/multilanguage.png" alt="">
-                        </div>
-                        <h2><b>Acquisto Online</b></h2>
-                        <p><b>L'utente potrà sottoscrivere un abbonamento mensile o annuale per avere l'accesso completo ad una categoria di libri,manga,light novel.<br>E' anche previsto l'acquisto di un singolo elemento come un normale e-commerce</b></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--/#services-->
-
-    <hr id="hr2">
-    <hr id="hr1">
-    
-
-    <section id="clients">
+    <section class="reader" id="reader">
+      <div class="reader-content">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="clients text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <p><img src="images/books.png" class="img-responsive" alt="" style="width: 25%; height: 50%"></p>
-                        <h1 class="title"><b>Contenuti offerti</b></h1>
-                    </div>
-                    <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="col-xs-3 col-sm-3">
-                            <a href="#"><img src="images/char1.png" class="img-responsive" alt=""></a>
-                        </div>
-                        <div class="col-xs-3 col-sm-3">
-                            <a href="#"><img src="images/char2.png" class="img-responsive" alt=""></a>
-                        </div>
-                         <div class="col-xs-3 col-sm-3">
-                            <a href="#"><img src="images/char3.png" class="img-responsive" alt=""></a>
-                        </div>
-                         <div class="col-xs-3 col-sm-3">
-                            <a href="#"><img src="images/open-book.png" class="img-responsive" alt=""></a>
-                        </div>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-sm-12 mx-auto text-center">
+              <h2>Ami leggere?</h2>
             </div>
+          </div>
+          <div class="row">
+              <div class="col-md-3 mx-auto">
+                <div class="feature-item">
+                  <i class="icon-globe text-primary"></i>
+                  <h3>Ovunque</h3>
+                  <p>Leggi ovunque, anche offline</p>
+                </div>
+              </div>
+              <div class="col-md-3 mx-auto">
+                <div class="feature-item">
+                  <i class="icon-screen-smartphone text-primary"></i>
+                  <h3>Mobile</h3>
+                  <p>Trova i nostri contenuti su qualsiasi device</p>
+                </div>
+              </div>
+              <div class="col-md-3 mx-auto">
+                <div class="feature-item">
+                  <i class="icon-people text-primary"></i>
+                  <h3>Community</h3>
+                  <p>Trova appassionati come te</p>
+                </div>
+              </div>
+              <div class="col-md-3 mx-auto">
+                <div class="feature-item">
+                  <i class="icon-wallet text-primary"></i>
+                  <h3>Economico</h3>
+                  <p>Scegli il tuo abbonamento e risparmia</p>
+                </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 mx-auto text-center">
+              <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Registrati gratis</a>
+            </div>
+          </div>
+          </div>
         </div>
-     </section>
-    <!--/#clients-->
-    <hr id="hr1">
-    <hr id="hr2">
-    <footer id="footer">
-        <div class="container" >
-            <div class="row">
-                <div class="col-sm-12 text-center bottom-separator">
-                    
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="testimonial bottom">
-                        <h2><b>Sponsor</b></h2>
-                        <div class="media">
-                            <div class="pull-left">
-                                <a href="#"><img src="images/home/profile1.png" alt=""></a>
-                            </div>
-                            <div class="media-body">
-                                <blockquote>-------------------------------</blockquote>
-                                
-                            </div>
-                         </div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <a href="#"><img src="images/home/profile2.png" alt=""></a>
-                            </div>
-                            <div class="media-body">
-                                <blockquote>------------------------------------</blockquote>
-                            </div>
-                        </div>   
-                    </div> 
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="contact-info bottom">
-                        <h2><b>Contatti</b></h2>
-                        <address>
-                        E-mail: <a href="mailto:sharevel.info@gmail.com">sharevel.info@gmail.com</a> <br> 
-                        Cel. 329 534 4436 <br> 
-                        </address>
+      <div class="overlay"></div>
+    </section>
 
-                        <h2><b>Team</b></h2>
-                        <address>
-                        Francesco Caiati<br> 
-                        Emanuele Rucci <br> 
-                        Gianluca Calò <br> 
-                        Mattia Tatone <br> 
-                        </address>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="contact-form bottom">
-                        <h2><b>Sondaggio</b></h2>
-                        <form id="main-contact-form" name="contact-form"  action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdesTygNCAQ0f4yFMLjBDpWGFBRvMX3z3qIHiSXTEQ85h7sJw/formResponse">
-                            <div class="form-group">
-                                <input type="email" name="emailAddress" class="form-control" required="required" placeholder="Indirizzo e-mail">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="entry.804458313" class="form-control" required="required" placeholder="Quanto siete interessati al nostro progetto?">
-                            </div>
-                            <div class="form-group">
-                                <textarea name="entry.1610410486" id="message" required="required" class="form-control" rows="8" placeholder="Quanto pagheresti un servizio simile?"></textarea>
-                            </div>                        
-                            <div class="form-group">
-                                <input type="submit" name="submit" class="btn btn-submit" value="Invia">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-sm-12">
-                    <div class="copyright-text text-center">
-                        <p>&copy; Sharevel 2018. All Rights Reserved.</p>
-                        <p>Designed by <b>Rucci Emanuele</b> & <b>Francesco Caiati</b></p>
-                    </div>
-                </div>
-                
-            </div>
+    <section class="download" id="download">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h2>Cosa stai aspettando? Scarica l'app!</h2>
         </div>
+        <div class="row">
+          <div class="col-lg-4 my-auto">
+            <div class="device-container">
+              <div class="device-mockup iphone6_plus portrait white">
+                <div class="device">
+                  <div class="screen">
+                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                    <img src="img/demo-screen-1.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="button">
+                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 my-auto d-flex justify-content-center">
+            <div class="badges">
+              <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
+              <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="creators" id="creators">
+      <div class="container">
+          <div class="row">
+            <div class="col-sm-12 mx-auto text-center">
+              <h1>Sei un scrittore?<br>Un disegnatore?<br>Dai sfogo alla tua creatività!</h1>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-md-3 mx-auto">
+                <div class="feature-item">
+                  <img src="img/contract.png" class="mx-auto">
+                  <h3>Senza Pensieri</h3>
+                  <p>Pensa solo a creare</p>
+                </div>
+              </div>
+              <div class="col-md-3 mx-auto">
+                <div class="feature-item">
+                  <img src="img/networking.png" class="mx-auto">
+                  <h3>Networking</h3>
+                  <p>Trova creativi come te</p>
+                </div>
+              </div>
+              <div class="col-md-3 mx-auto">
+                <div class="feature-item">
+                  <i class="icon-graph text-primary"></i>
+                  <h3>Guadagna</h3>
+                  <p>Più lettori più guadagni</p>
+                </div>
+              </div>
+              <div class="col-md-3 mx-auto">
+                <div class="feature-item">
+                  <i class="icon-trophy text-primary"></i>
+                  <h3>Contest</h3>
+                  <p>Dimostra quanto vali</p>
+                </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 mx-auto text-center">
+              <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Registrati gratis</a>
+            </div>
+          </div>
+          </div>
+    </section>
+
+    <section class="team text-center" id="team">
+      <!-- Section heading -->
+      <h2 class="h1-responsive font-weight-bold my-5">Il team</h2>
+      <div class="container">
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+            <div class="avatar mx-auto">
+              <img src="img/avatar/er.png" alt="Sample avatar">
+            </div>
+            <h5 class="font-weight-bold mt-4 mb-3">Emanuele Rucci</h5>
+            <p class="text-uppercase blue-text"><strong>Team leader</strong></p>
+            <!-- <p class="grey-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci  sed quia non numquam modi tempora eius.</p> -->
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+            <div class="avatar mx-auto">
+              <img src="img/avatar/fc.png" alt="Sample avatar">
+            </div>
+            <h5 class="font-weight-bold mt-4 mb-3">Francesco Caiati</h5>
+            <p class="text-uppercase blue-text"><strong>Developer</strong></p>
+            <!-- <p class="grey-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem ipsa accusantium doloremque rem laudantium totam aperiam.</p> -->
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
+            <div class="avatar mx-auto">
+              <img src="img/avatar/gc.png" alt="Sample avatar">
+            </div>
+            <h5 class="font-weight-bold mt-4 mb-3">Gianluca Calò</h5>
+            <p class="text-uppercase blue-text"><strong>Financial Director</strong></p>
+            <!-- <p class="grey-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim est fugiat nulla id eu laborum.</p> -->
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-6">
+            <div class="avatar mx-auto">
+              <img src="img/avatar/am.png" alt="Sample avatar">
+            </div>
+            <h5 class="font-weight-bold mt-4 mb-3">Antonio Modugno</h5>
+            <p class="text-uppercase blue-text"><strong>Graphic Designer</strong></p>
+            <!-- <p class="grey-text">Perspiciatis repellendus ad odit consequuntur, eveniet earum nisi qui consectetur totam officia voluptates perferendis voluptatibus aut.</p> -->
+          </div>
+          <!-- Grid column -->
+
+        </div>
+      </div>
+    </section>
+
+    <section class="contact " id="contact">
+      <div class="container">
+        <h2>Teniamoci in contatto!</h2>
+        <ul class="list-inline list-social">
+          <li class="list-inline-item social-facebook">
+            <a href="#">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item social-instagram">
+            <a href="#">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+          <li class="list-inline-item social-google-plus">
+            <a href="#">
+              <i class="fa fa-youtube"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="contact-section my-5">
+
+      <!-- Form with header -->
+      <div class="card">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-lg-8">
+
+          <div class="card-body form">
+
+            <!-- Header -->
+            <h3 class="mt-4">Scrivici:</h3>
+
+            <!-- Grid row -->
+            <div class="row">
+
+              <!-- Grid column -->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input type="text" id="form-contact-name" class="form-control">
+                  <label for="form-contact-name" class="">Your name</label>
+                </div>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input type="text" id="form-contact-email" class="form-control">
+                  <label for="form-contact-email" class="">Your email</label>
+                </div>
+              </div>
+              <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+            <!-- Grid row -->
+            <div class="row">
+
+              <!-- Grid column -->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input type="text" id="form-contact-phone" class="form-control">
+                  <label for="form-contact-phone" class="">Your phone</label>
+                </div>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input type="text" id="form-contact-company" class="form-control">
+                  <label for="form-contact-company" class="">Your company</label>
+                </div>
+              </div>
+              <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+            <!-- Grid row -->
+            <div class="row">
+
+              <!-- Grid column -->
+              <div class="col-md-12">
+                <div class="md-form mb-0">
+                  <textarea type="text" id="form-contact-message" class="form-control md-textarea" rows="3"></textarea>
+                  <label for="form-contact-message">Your message</label>
+                  <a class="btn-floating btn-lg blue">
+                    <i class="fa fa-send-o"></i>
+                  </a>
+                </div>
+              </div>
+              <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+          </div>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-lg-4">
+
+          <div class="card-body contact text-center h-100 white-text">
+
+            <h3 class="my-4 pb-2">Contact information</h3>
+            <ul class="text-lg-left list-unstyled ml-4">
+              <li>
+                <p><i class="fa fa-map-marker pr-2"></i>Bitonto, 70032, Italia</p>
+              </li>
+              <li>
+                <p><i class="fa fa-phone pr-2"></i>+39 329 534 4436</p>
+              </li>
+              <li>
+                <p><i class="fa fa-envelope pr-2"></i>sharevel.info@gmail.com</p>
+              </li>
+            </ul>
+            <hr class="hr-light my-4">
+            <ul class="list-inline text-center list-unstyled">
+              <li class="list-inline-item">
+                <a class="p-2 fa-lg tw-ic">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="p-2 fa-lg li-ic">
+                  <i class="fa fa-instagram"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="p-2 fa-lg ins-ic">
+                  <i class="fa fa-youtube"> </i>
+                </a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+      </div>
+      <!-- Form with header -->
+
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; Your Website 2018. All Rights Reserved.</p>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="#">Privacy</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">Terms</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">FAQ</a>
+          </li>
+        </ul>
+      </div>
     </footer>
-    <!--/#footer-->
 
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/lightbox.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>   
-</body>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/new-age.js"></script>
+
+  </body>
+
 </html>
