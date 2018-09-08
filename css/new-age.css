@@ -81,6 +81,7 @@ section h2 {
 }
 #mainNav .navbar-brand img {
 height: 50px;
+padding-right: 16px;
 }
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
   color: white;
