@@ -5,6 +5,7 @@ body {
 }
 
 body {
+  overflow-x: hidden;
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 
@@ -81,6 +82,7 @@ section h2 {
 }
 #mainNav .navbar-brand img {
 height: 50px;
+padding-right: 1em;
 }
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
   color: white;
@@ -385,9 +387,12 @@ section.contact {
   text-align: center;
 }
 
-section.contact h2 {
-  margin-top: 0;
-  margin-bottom: 25px;
+section.contact h3 {
+font-family: 'Montserrat';
+font-size: 50px;
+font-weight: 500;
+line-height: 1.2;
+color: inherit;
 }
 
 section.contact h2 i {
@@ -395,6 +400,7 @@ section.contact h2 i {
 }
 
 section.contact ul.list-social {
+  margin-top: 2rem;
   margin-bottom: 0;
 }
 
