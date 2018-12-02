@@ -340,9 +340,10 @@ section.reader .overlay {
 /* creators ----------------------------------------------------------- */
 section.creators {
   position: relative;
-  background: url("../img/bg-pattern.png"), #0a2d7c;
+  /* background: url("../img/bg-pattern.png"), #0a2d7c;
   background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#0a2d7c), to(#0193de));
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #0a2d7c, #0193de);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #0a2d7c, #0193de); */
+  background: linear-gradient(to left, #0a2d7c, #0193de);
 }
 section.creators h1{
   font-weight: bold;
