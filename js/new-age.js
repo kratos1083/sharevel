@@ -1,7 +1,7 @@
 (function($) {
   "use strict"; // Start of use strict
-  var darkLogo = "img/logo-dark.png";
-  var lightLogo = "img/logo.png"
+  var darkLogo = "img/darkLogo.png";
+  var lightLogo = "img/lightLogo.png"
 
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
@@ -32,10 +32,10 @@
   var navbarCollapse = function() {
     console.log($("#mainNav").offset().top);
     if (($("#mainNav").offset().top > 100)) {
-      // $("#brand").attr("src",darkLogo);
+       $("#brand").attr("src",darkLogo);
       $("#mainNav").addClass("navbar-shrink");
     } else {
-      // $("#brand").attr("src",lightLogo);
+       $("#brand").attr("src",lightLogo);
       $("#mainNav").removeClass("navbar-shrink");
     }
   };
